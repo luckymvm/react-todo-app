@@ -1,8 +1,8 @@
 # This is another Todo List Application written in Javascript using React
 
-## Design of an application
+## Design of the application
 
-**This is another uninteresting Todo list project. In this project, I used class-based components for states.**
+**This is another boring Todo list project. In this project, I used class-based components for states.**
 
 ### Components
 
@@ -32,15 +32,15 @@ Used in the **TodoList** component for rendering tasks on the page, it also has 
 
 In it, as we understood from the name, new tasks are created, contains an input for entering the name of the component, and a button for adding a task to the list of tasks.
 
-***FUNCTIONAL COMPONENTS BETTER IN 2021!***
+***FUNCTIONAL COMPONENTS ARE BETTER IN 2021!***
 
 ### Styles
 
 The project used Css modules, using SCSS.
 
-I wrote the styles from scratch, **without using libraries**, I did not see the need for them in this project. Everything turned out to be adaptive. I attach the screenshots below. The design was done by myself (almost, lol). I made a layout of the application in **Figma**, I am attaching a link to the figma file below.
+I wrote the styles from scratch, **without using libraries**, I did not see the need for them in this project. Everything turned out to be adaptive. I attached the screenshots below. The design was done by myself (almost, lol). I made a layout of the application in **Figma**, I am attaching a link to the figma file below.
 
-[Link to figma file](https://www.figma.com/file/D64yblCazHa8wKSvFyHfjt/TODO-LIST)
+<a href="https://www.figma.com/file/D64yblCazHa8wKSvFyHfjt/TODO-LIST" target="_blank">Link to figma file</a>
 
 ### Screenshots
 
