@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# This is another Todo List Application written in Javascript using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Design of an application
 
-## Available Scripts
+**This is another uninteresting Todo list project. In this project, I used class-based components for states.**
 
-In the project directory, you can run:
+### Components
 
-### `npm start`
+There are 8 components in the project:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### App component
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This is the root component where most of the logic is, as well as all the other components.
 
-### `npm test`
+#### Header component
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It contains the title of the application, where the logo and general information about the tasks are located.
 
-### `npm run build`
+#### Panels component
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Combining 2 other components, Component "SearchPanel" for finding tasks, and "ItemStatusFilter" component for filtering components for all tasks, active and completed
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### TodoList component
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We pass the array of tasks from the app component to it, and in it we map the tasks using the component below.
 
-### `npm run eject`
+#### TodoListItem component
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Used in the todo leaf component for rendering tasks on the page, it also has buttons for completing a task, deleting and changing the importance of a task.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### NewTask component
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+In it, as we understood from the name, new tasks are created, contains an input for entering the name of the component, and a button for adding a task to the list of tasks.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+***FUNCTIONAL COMPONENTS BETTER IN 2021!***
 
-## Learn More
+### Styles
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project used Css modules, using SCSS.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+I wrote the styles from scratch, **without using libraries**, I did not see the need for them in this project. Everything turned out to be adaptive. I attach the screenshots below. The design was done by myself (almost, lol). I made a layout of the application in **Figma**, I am attaching a link to the figma file below.
 
-### Code Splitting
+[Link to figma file](https://www.figma.com/file/D64yblCazHa8wKSvFyHfjt/TODO-LIST)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Screenshots
 
-### Analyzing the Bundle Size
+![Desktop](https://github.com/luckymvm/react-todo-app/raw/main/screenshots/desktop.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Mobile adaptive](https://github.com/luckymvm/react-todo-app/raw/main/screenshots/mobile.jpg)

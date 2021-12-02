@@ -1,0 +1,15 @@
+@import "./_fonts.scss";
+@import "./normalize.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif, Arial;
+  font-size: 25px;
+  font-weight: 400;
+  background-color: #E3E3E3;
+}

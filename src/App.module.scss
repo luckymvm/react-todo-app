@@ -1,0 +1,13 @@
+.todoApp {
+    max-width: 768px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0 30px;
+}
+
+@media (max-width: 592px) {
+    .todoApp {
+        padding: 0 15px;
+    }
+}

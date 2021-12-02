@@ -1,0 +1,46 @@
+.newTask {
+	display: grid;
+	grid-template-columns: 2fr auto;
+	gap: 20px;
+
+	button {
+		padding: 12px 10px;
+		border: 1px solid #35B8C0;
+		border-radius: 5px;
+		color: #fff;
+		background: #35B8C0;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-size: 25px;
+		line-height: 25px;
+
+		transition: background-color .1s;
+	}
+
+	button:hover {
+		background-color: #26afb0;
+	}
+}
+
+.taskInput {
+	padding: 12px 20px;
+	outline: 0;
+	border: 1px solid #CACACA;
+	border-radius: 5px;
+}
+
+@media (max-width: 592px) {
+	.newTask {
+		gap: 10px;
+
+		button {
+			padding: 7px 5px;
+			font-size: 20px;
+		}
+	}
+
+	.taskInput {
+		padding: 7px 15px;
+		font-size: 20px;
+	}
+}

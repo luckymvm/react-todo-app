@@ -1,0 +1,13 @@
+.panels {
+	display: grid;
+	grid-template-columns: 2fr auto;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+@media (max-width: 592px) {
+	.panels {
+		grid-template-columns: 1fr auto;
+		gap: 10px;
+	}
+}

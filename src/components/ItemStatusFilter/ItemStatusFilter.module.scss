@@ -1,0 +1,50 @@
+.panelButtons {
+	display: flex;
+
+	button {
+		padding: 12px 10px;
+		outline: 0;
+		background: transparent;
+		cursor: pointer;
+		border: 1px solid #CACACA;
+		font-size: 25px;
+		line-height: 25px;
+		color: #000;
+
+		transition: all .1s;
+	}
+
+	button:first-child {
+		border-right: none;
+		border-radius: 5px 0 0 5px;
+	}
+
+	button:first-child:hover {
+		border-left: 1px solid #35B8C0;
+	}
+
+	button:last-child {
+		border-left: none;
+		border-radius: 0 5px 5px 0;
+	}
+
+	button:last-child:hover {
+		border-right: 1px solid #35B8C0;
+	}
+
+	.active, button:hover {
+		border-top: 1px solid #35B8C0;
+		border-bottom: 1px solid #35B8C0;
+		background-color: #35B8C0;
+		color: #fff;
+	}
+}
+
+@media (max-width: 592px) {
+	.panelButtons {
+		button {
+			padding: 7px 5px;
+			font-size: 20px;
+		}
+	}
+}

@@ -1,0 +1,21 @@
+.edit {
+	display: flex;
+	gap: 15px;
+
+	button {
+		outline: 0;
+		//border: 1px solid black;
+		border: none;
+		padding: 0;
+		background: transparent;
+		cursor: pointer;
+	}
+}
+
+.important {
+	color: #35B8C0;
+}
+
+.completed {
+	text-decoration: line-through;
+}
