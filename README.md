@@ -44,6 +44,6 @@ I wrote the styles from scratch, **without using libraries**, I did not see the 
 
 ### Screenshots
 
-![Desktop](https://github.com/luckymvm/react-todo-app/raw/main/screenshots/desktop.png)
+![Desktop](https://github.com/luckymvm/react-todo-app/raw/main/screenshots/desktop.PNG)
 
 ![Mobile adaptive](https://github.com/luckymvm/react-todo-app/raw/main/screenshots/mobile.jpg)
