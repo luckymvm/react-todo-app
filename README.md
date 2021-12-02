@@ -22,11 +22,11 @@ Combining 2 other components, Component "SearchPanel" for finding tasks, and "It
 
 #### TodoList component
 
-We pass the array of tasks from the app component to it, and in it we map the tasks using the component below.
+We pass the array of tasks from the **App** component to it, and in it we map the tasks using the component below.
 
 #### TodoListItem component
 
-Used in the todo list component for rendering tasks on the page, it also has buttons for completing a task, deleting and changing the importance of a task.
+Used in the **TodoList** component for rendering tasks on the page, it also has buttons for completing a task, deleting and changing the importance of a task.
 
 #### NewTask component
 
