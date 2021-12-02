@@ -30,7 +30,7 @@ Used in the **TodoList** component for rendering tasks on the page, it also has 
 
 #### NewTask component
 
-In it, as we understood from the name, new tasks are created, contains an input for entering the name of the component, and a button for adding a task to the list of tasks.
+In it, as we understood from the name, new tasks are created, contains an input for entering the name of the task, and a button for adding a task to the list of tasks.
 
 ***FUNCTIONAL COMPONENTS ARE BETTER IN 2021!***
 
