@@ -26,7 +26,7 @@ We pass the array of tasks from the app component to it, and in it we map the ta
 
 #### TodoListItem component
 
-Used in the todo leaf component for rendering tasks on the page, it also has buttons for completing a task, deleting and changing the importance of a task.
+Used in the todo list component for rendering tasks on the page, it also has buttons for completing a task, deleting and changing the importance of a task.
 
 #### NewTask component
 
